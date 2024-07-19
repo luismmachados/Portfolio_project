@@ -1,0 +1,19 @@
+---
+title: "Mi Portafolio de Proyectos"
+---
+
+# Bienvenido a Mi Portafolio de Proyectos
+
+Soy un científico de datos recién egresado con experiencia en diversos proyectos de análisis de datos y machine learning. A continuación, encontrarás enlaces a algunos de mis trabajos destacados.
+
+## Proyectos
+
+### [Proyecto 1: Análisis de Reseñas de Google Play](./projects/project1/README.md)
+
+En este proyecto, analicé las reseñas de aplicaciones de Google Play para predecir los sentimientos de los usuarios.
+
+### [Proyecto 2: Predicción y Clasificación de Salarios](./projects/project2/README.md)
+
+Desarrollé modelos para predecir el salario esperado de los solicitantes y clasificar si es probable que sean contratados.
+
+<!-- Agrega más proyectos según sea necesario -->

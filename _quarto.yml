@@ -1,8 +1,9 @@
+  
 project:
   type: website
 
 website:
-  title: "Mi Portafolio de Proyectos"
+  title: "Mi Portafolio"
   navbar:
     left:
       - text: "Inicio"
@@ -15,9 +16,12 @@ website:
             href: projects/project_02/README.md
           - text: "Proyecto 3"
             href: projects/project_03/README.md
+  footer:
+    text: "© 2024 Luis Machado"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    number-sections: true

@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Quarto Site
 
 on:
   push:
@@ -6,24 +6,33 @@ on:
       - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Install dependencies
-      run: |
-        sudo apt-get install -y python3-pip
-        pip3 install -r requirements.txt
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          quarto-version: '1.x'
 
-    - name: Build site
-      run: |
-        quarto render
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.PERSONAL_TOKEN }}
-        publish_dir: ./_site
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt || true  # Continue even if requirements.txt does not exist
+
+      - name: Render site
+        run: quarto render
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: ./_site

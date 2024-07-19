@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Mi Portafolio de Proyectos"
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Proyectos"
+        menu:
+          - text: "Proyecto 1"
+            href: projects/Project_01/README.md
+          - text: "Proyecto 2"
+            href: projects/project_02/README.md
+          - text: "Proyecto 3"
+            href: projects/project_03/README.md
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

@@ -8,11 +8,11 @@ Soy un científico de datos recién egresado con experiencia en diversos proyect
 
 ## Proyectos
 
-### [Proyecto 1: Análisis de Reseñas de Google Play](./projects/project1/README.md)
+### [Proyecto 1: Análisis de Reseñas de Google Play](./projects/project_01/README.md)
 
 En este proyecto, analicé las reseñas de aplicaciones de Google Play para predecir los sentimientos de los usuarios.
 
-### [Proyecto 2: Predicción y Clasificación de Salarios](./projects/project2/README.md)
+### [Proyecto 2: Predicción y Clasificación de Salarios](./projects/project_02/README.md)
 
 Desarrollé modelos para predecir el salario esperado de los solicitantes y clasificar si es probable que sean contratados.
 

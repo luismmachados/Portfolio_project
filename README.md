@@ -40,15 +40,15 @@ I am a data scientist. with experience in data collection, analysis, engineering
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 
-### [Project 1: Fake News Detector Based on Neural Networks](.Projects/Project_01)
+### [Project 1: Fake News Detector Based on Neural Networks](Projects/Project_01)
 - **Description**: Exploratory data analysis using pandas and matplotlib. Data engineering and text processing. Deep learning.
 - **Technologies**: Python, pandas, numpy, scikit-learn, matplotlib, seaborn, tensorflow keras.
 
-### [Project 2: Customer Segmentation for Financial Product](.Projects/Project_02)
+### [Project 2: Customer Segmentation for Financial Product](Projects/Project_02)
 - **Description**: This project focuses on the exploration and analysis of data using clustering techniques and principal component analysis (PCA). Algorithms such as K-Means, Hierarchical Clustering, and Spectral Clustering are used to identify patterns and groupings in the data.
 - **Technologies**: Python, pandas, numpy, scikit-learn, matplotlib, seaborn, scipy, plotly.
 
-### [Project 3: Salary Prediction and Classification for Job Applicants](.Projects/Project_03)
+### [Project 3: Salary Prediction and Classification for Job Applicants](Projects/Project_03)
 - **Description**: This project involves the development of two models: one for predicting the expected salary of job applicants based on their characteristics, and another for classifying whether an applicant is likely to be hired. The project includes data exploration, feature transformation, and model building for both regression and classification tasks.
 - **Technologies**: Python, pandas, numpy, scikit-learn, matplotlib, seaborn, Jupyter Notebooks
 

@@ -59,7 +59,7 @@ Each project has its own folder and contains a `README.md` with detailed instruc
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/luismmachados/Portfolio_project
+    git clone https://github.com/luismmachados/Portfolio_project.git
     ```
 
 2. Navigate to the project directory:

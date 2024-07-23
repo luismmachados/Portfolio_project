@@ -8,18 +8,17 @@ Soy un científico de datos recién egresado con experiencia en diversos proyect
 
 ## Proyectos
 
-### [Project 1: Fake News Detector Based on Neural Networks](.Projects/Project_01)
+### [Project 1: Fake News Detector Based on Neural Networks](projects/Project_01/README.md)
 - **Description**: Exploratory data analysis using pandas and matplotlib. Data engineering and text processing. Deep learning.
 - **Technologies**: Python, pandas, numpy, scikit-learn, matplotlib, seaborn, tensorflow keras.
 
-### [Project 2: Customer Segmentation for Financial Product](.Projects/Project_02)
+### [Project 2: Customer Segmentation for Financial Product](projects/Project_02/README.md)
 - **Description**: This project focuses on the exploration and analysis of data using clustering techniques and principal component analysis (PCA). Algorithms such as K-Means, Hierarchical Clustering, and Spectral Clustering are used to identify patterns and groupings in the data.
 - **Technologies**: Python, pandas, numpy, scikit-learn, matplotlib, seaborn, scipy, plotly.
 
-### [Project 3: Salary Prediction and Classification for Job Applicants](.Projects/Project_03)
+### [Project 3: Salary Prediction and Classification for Job Applicants](projects/Project_03/README.md)
 - **Description**: This project involves the development of two models: one for predicting the expected salary of job applicants based on their characteristics, and another for classifying whether an applicant is likely to be hired. The project includes data exploration, feature transformation, and model building for both regression and classification tasks.
 - **Technologies**: Python, pandas, numpy, scikit-learn, matplotlib, seaborn, Jupyter Notebooks
-
 
 ## How to Run the Projects
 
@@ -27,12 +26,12 @@ Each project has its own folder and contains a `README.md` with detailed instruc
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/luismmachados/Portfolio_projects
+    git clone https://github.com/luismmachados/Portfolio_project
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd Portfolio_projects
+    cd Portfolio_project
     ```
 
 3. Install the dependencies:
@@ -53,3 +52,4 @@ Each project has its own folder and contains a `README.md` with detailed instruc
 ---
 
 Thank you for visiting my portfolio! Feel free to contact me if you have any questions or if you would like to discuss potential collaboration opportunities.
+

@@ -1,17 +1,17 @@
+/* Cambia el color de fondo del cuerpo */
 body {
-    font-family: 'Arial', sans-serif;
-  }
-  
-  h1, h2, h3 {
-    color: #2c3e50;
-  }
-  
-  a {
-    color: #3498db;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: #f0f0f0;
+}
+
+/* Cambia el color del texto del encabezado */
+h1, h2, h3 {
+  color: #333333;
+}
+
+/* Estiliza el pie de página */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333333;
+  color: #ffffff;
+}

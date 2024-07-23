@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>analysis – Mi Portafolio de Proyectos</title>
+<title>analysis – Mi Portafolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,7 +116,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../../index.html">
-    <span class="navbar-title">Mi Portafolio de Proyectos</span>
+    <span class="navbar-title">Mi Portafolio</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -139,11 +139,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">Proyecto 1</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../projects/project_02/README.md">
+    <a class="dropdown-item" href="../../../projects/Project_02/README.md">
  <span class="dropdown-text">Proyecto 2</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../projects/project_03/README.md">
+    <a class="dropdown-item" href="../../../projects/Project_03/README.md">
  <span class="dropdown-text">Proyecto 3</span></a>
   </li>  
     </ul>
@@ -164,10 +164,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#context" id="toc-context" class="nav-link active" data-scroll-target="#context">Context</a>
+  <li><a href="#context" id="toc-context" class="nav-link active" data-scroll-target="#context"><span class="header-section-number">1</span> Context</a>
   <ul class="collapse">
-  <li><a href="#importing-libraries" id="toc-importing-libraries" class="nav-link" data-scroll-target="#importing-libraries">Importing Libraries</a></li>
-  <li><a href="#load-dataset" id="toc-load-dataset" class="nav-link" data-scroll-target="#load-dataset">Load Dataset</a></li>
+  <li><a href="#importing-libraries" id="toc-importing-libraries" class="nav-link" data-scroll-target="#importing-libraries"><span class="header-section-number">1.1</span> Importing Libraries</a></li>
+  <li><a href="#load-dataset" id="toc-load-dataset" class="nav-link" data-scroll-target="#load-dataset"><span class="header-section-number">1.2</span> Load Dataset</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -179,8 +179,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p><a href="https://colab.research.google.com/github/LuisMachadoSaa/Briefcase_project/blob/main/Proyecto_01.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
-<section id="context" class="level1">
-<h1>Context</h1>
+<section id="context" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Context</h1>
 <p>La propagación de <em>fake news</em> o noticias falsas se incrementó a partir de la pandemia por COVID-19. Estas son un problema alarmante porque hacen que las personas realicen actividades que normalmente no llevarían a cabo o que actúen de manera caótica. Un ejemplo es <a href="https://drive.google.com/file/d/1PrfN83Fm1ib5mHYN6SULVe9CJVECUNn2/view?usp=share_link">-&gt; esta noticia &lt;-</a>, en la que se relata cómo notas falsas acerca del daño que ocasiona la 5G al cuerpo provocaron que muchas personas en el Reino Unido quemaran torres de telecomunicaciones aun sin ser estas de 5G.</p>
 <p>A ti, como persona experta en redes neuronales, te han encargado hacer un predetector de noticias falsas para los <em>fact-checker</em> del mundo.</p>
 <p>Para realizarlo, tienes a tu disposición el siguiente <em>dataset</em>: https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification</p>
@@ -188,8 +188,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Prueba tu modelo con esta noticia falsa: https://www.breitbart.com/politics/2016/09/10/exposed-fbi-director-james-comeys-clinton-foundation-connection/</li>
 <li>Prueba tu modelo con esta noticia verdadera: https://www.washingtonpost.com/sports/2022/11/14/world-cup-female-referee-kathryn-nesbitt/</li>
 </ul>
-<section id="importing-libraries" class="level2">
-<h2 class="anchored" data-anchor-id="importing-libraries">Importing Libraries</h2>
+<section id="importing-libraries" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="importing-libraries"><span class="header-section-number">1.1</span> Importing Libraries</h2>
 <div id="cell-3" class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras <span class="im">import</span> datasets</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
@@ -241,8 +241,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="load-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="load-dataset">Load Dataset</h2>
+<section id="load-dataset" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="load-dataset"><span class="header-section-number">1.2</span> Load Dataset</h2>
 <div id="cell-13" class="cell" data-outputid="757cb590-3343-4f4c-a650-3100661f2057">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> read_csv(<span class="st">'/content/drive/MyDrive/Colab Notebooks/proyectos/WELFake_Dataset.csv'</span>)</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -566,8 +566,8 @@ dtype: float64</code></pre>
 <li>Más de 15%: Crítico, con impacto severo en cualquier tipo de interpretación</li>
 </ul>
 </li></ul></div>
-<section id="data-preprocessing" class="level2">
-<h2 class="anchored" data-anchor-id="data-preprocessing">Data Preprocessing</h2>
+<section id="data-preprocessing" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="data-preprocessing"><span class="header-section-number">1.3</span> Data Preprocessing</h2>
 <div id="cell-25" class="cell">
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>df.drop(columns<span class="op">=</span>[<span class="st">'Unnamed: 0'</span>], inplace<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -580,8 +580,8 @@ dtype: float64</code></pre>
 </div>
 <p>Eliminamos los valores faltantes, y reestablecemos los indices del dataframe</p>
 </section>
-<section id="univariate-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="univariate-analysis">Univariate Analysis</h2>
+<section id="univariate-analysis" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="univariate-analysis"><span class="header-section-number">1.4</span> Univariate Analysis</h2>
 <div id="cell-31" class="cell" data-outputid="90930fca-1767-4042-c0e9-536155b0ae2c">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'label'</span>].value_counts().plot.pie(autopct<span class="op">=</span><span class="st">'</span><span class="sc">%.2f</span><span class="st">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
@@ -602,8 +602,8 @@ Name: label, dtype: int64</code></pre>
 </div>
 <p>Mediante la grafica pie o pastel, observamos que la columna <em>label</em> que contiene si la notica es falsa o verdadera, esta muy equilibrada bastante parejo</p>
 </section>
-<section id="train-and-test-data" class="level2">
-<h2 class="anchored" data-anchor-id="train-and-test-data">Train and test data</h2>
+<section id="train-and-test-data" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="train-and-test-data"><span class="header-section-number">1.5</span> Train and test data</h2>
 <div id="cell-35" class="cell">
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df[<span class="st">'text'</span>]</span>
 <span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[<span class="st">'label'</span>]</span>
@@ -631,8 +631,8 @@ Name: label, dtype: int64</code></pre>
 <p>Definimos una variable con el <em>TextVectorization</em> para transformar el texto y poder trabajar los datos, le aplicamos unos cuantos hiperparametros para mejorar la salida de los datos.</p>
 <p>Adaptamos con la variable <em>X_train</em> y luego vectorizamos sobreescribiendo las variables de conjunto <em>X</em></p>
 </section>
-<section id="define-the-neural-network" class="level2">
-<h2 class="anchored" data-anchor-id="define-the-neural-network">Define the Neural Network</h2>
+<section id="define-the-neural-network" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="define-the-neural-network"><span class="header-section-number">1.6</span> Define the Neural Network</h2>
 <div id="cell-41" class="cell" data-outputid="dac8efd3-bb08-4667-c456-8c2f84185751">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Definir el modelo</span></span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Sequential()</span>
@@ -666,16 +666,16 @@ _________________________________________________________________</code></pre>
 </div>
 <p>Definimos nuestro modelo, en este caso utilizando la arquitectura sequential en Keras, consta de una capa de embedding(128 dim con vocabulario de 10.000) para convertir los números enteros en vectores de embeddings, seguida de una capa LSTM(128Unidades) para modelar las dependencias temporales en los datos de secuencia, y finalmente una capa densa con activación sigmoidal para la clasificación binaria.</p>
 </section>
-<section id="compile-the-model" class="level2">
-<h2 class="anchored" data-anchor-id="compile-the-model">Compile the model</h2>
+<section id="compile-the-model" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="compile-the-model"><span class="header-section-number">1.7</span> Compile the model</h2>
 <div id="cell-44" class="cell">
 <div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Compilamos el modelo</span></span>
 <span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">'adam'</span>, loss<span class="op">=</span><span class="st">'binary_crossentropy'</span>, metrics<span class="op">=</span>[<span class="st">'accuracy'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Compilamos el modelo especificando la función de pérdida y el optimizador, este caso con <em>binary_crossentropy</em> y <em>adam</em>, con la metrica de desempeño <em>accuracy</em></p>
 </section>
-<section id="train-the-model" class="level2">
-<h2 class="anchored" data-anchor-id="train-the-model">Train the model</h2>
+<section id="train-the-model" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="train-the-model"><span class="header-section-number">1.8</span> Train the model</h2>
 <div id="cell-47" class="cell" data-outputid="78dda0cd-9b6b-4698-c9e4-9a4882a6fc42">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Entrenamos el modelo</span></span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>history <span class="op">=</span> model.fit(X_train, y_train, epochs<span class="op">=</span><span class="dv">3</span>, batch_size<span class="op">=</span><span class="dv">42</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -690,8 +690,8 @@ Epoch 3/3
 </div>
 <p>Entrenamos nuestro modelo el cual definimos como <em>history</em>, y lo haremos con 3 epocas en este caso. En la sección de evaluación del modelo lo explicare.</p>
 </section>
-<section id="evaluate-the-model" class="level2">
-<h2 class="anchored" data-anchor-id="evaluate-the-model">Evaluate the model</h2>
+<section id="evaluate-the-model" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="evaluate-the-model"><span class="header-section-number">1.9</span> Evaluate the model</h2>
 <div id="cell-50" class="cell" data-outputid="958e8c0d-3453-4872-f0fc-48b44a5b69e4">
 <div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure()</span>
 <span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>ax1 <span class="op">=</span> fig.add_subplot(<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">1</span>)</span>
@@ -724,8 +724,8 @@ Loss: 0.04466693475842476, Accuracy: 0.9848336577415466</code></pre>
 </div>
 <p>Evaluamos nuestro modelo con las metricas de precisión y función de perdida. Nos arroja una perdida de información de un casí 4% y una precisión del 98%</p>
 </section>
-<section id="predict-test-data" class="level2">
-<h2 class="anchored" data-anchor-id="predict-test-data">Predict test data</h2>
+<section id="predict-test-data" class="level2" data-number="1.10">
+<h2 data-number="1.10" class="anchored" data-anchor-id="predict-test-data"><span class="header-section-number">1.10</span> Predict test data</h2>
 <div id="cell-55" class="cell" data-outputid="c727b3ea-b251-488a-b329-66290707dc74">
 <div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>predicciones <span class="op">=</span> model.predict(X_test)</span>
 <span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(predicciones)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1048,11 +1048,11 @@ Loss: 0.04466693475842476, Accuracy: 0.9848336577415466</code></pre>
 <p>Ya con nuestro modelo listo, lo usaremos para corroborar si las siguientes noticias son falsas o verdaderas.</p>
 <p>#Parse a fakenew</p>
 </section>
-<section id="load-data" class="level2">
-<h2 class="anchored" data-anchor-id="load-data">Load Data</h2>
+<section id="load-data" class="level2" data-number="1.11">
+<h2 data-number="1.11" class="anchored" data-anchor-id="load-data"><span class="header-section-number">1.11</span> Load Data</h2>
 </section>
-<section id="htlm-extraction" class="level2">
-<h2 class="anchored" data-anchor-id="htlm-extraction">HTLM extraction</h2>
+<section id="htlm-extraction" class="level2" data-number="1.12">
+<h2 data-number="1.12" class="anchored" data-anchor-id="htlm-extraction"><span class="header-section-number">1.12</span> HTLM extraction</h2>
 <div id="cell-67" class="cell">
 <div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>url <span class="op">=</span> <span class="st">"https://www.breitbart.com/politics/2016/09/10/exposed-fbi-director-james-comeys-clinton-foundation-connection/"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -1070,8 +1070,8 @@ Loss: 0.04466693475842476, Accuracy: 0.9848336577415466</code></pre>
 </div>
 <p>Así se ve la noticia antes del pre-procesamiento</p>
 </section>
-<section id="text-processing" class="level2">
-<h2 class="anchored" data-anchor-id="text-processing">Text Processing</h2>
+<section id="text-processing" class="level2" data-number="1.13">
+<h2 data-number="1.13" class="anchored" data-anchor-id="text-processing"><span class="header-section-number">1.13</span> Text Processing</h2>
 <div id="cell-74" class="cell">
 <div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>soup <span class="op">=</span> BeautifulSoup(text, <span class="st">"html.parser"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -1092,8 +1092,8 @@ Loss: 0.04466693475842476, Accuracy: 0.9848336577415466</code></pre>
 </div>
 <p>Ahora va tomando mejor forma, así se ve luego de pre-procesamiento de texto.</p>
 </section>
-<section id="tokenization" class="level2">
-<h2 class="anchored" data-anchor-id="tokenization">Tokenization</h2>
+<section id="tokenization" class="level2" data-number="1.14">
+<h2 data-number="1.14" class="anchored" data-anchor-id="tokenization"><span class="header-section-number">1.14</span> Tokenization</h2>
 <div id="cell-80" class="cell">
 <div class="sourceCode cell-code" id="cb47"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>new_vocab_size <span class="op">=</span> <span class="dv">597</span></span>
 <span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>new_text_vectorizer <span class="op">=</span> TextVectorization(max_tokens<span class="op">=</span>new_vocab_size,</span>
@@ -1154,8 +1154,8 @@ array([[ 52,  71,  34,   5, 268,   7,  22,  25,  15,  26, 101, 410,   6,
 </div>
 <p>Una impresión de como se ve la noticia luego de tokenizar, un tensor con valores enteros</p>
 </section>
-<section id="predict-a-fakenews" class="level2">
-<h2 class="anchored" data-anchor-id="predict-a-fakenews">Predict a fakenews</h2>
+<section id="predict-a-fakenews" class="level2" data-number="1.15">
+<h2 data-number="1.15" class="anchored" data-anchor-id="predict-a-fakenews"><span class="header-section-number">1.15</span> Predict a fakenews</h2>
 <div id="cell-85" class="cell" data-outputid="a1fa2ba9-f7f1-44ca-fe5a-c574d231f5cd">
 <div class="sourceCode cell-code" id="cb50"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>prediction <span class="op">=</span> model.predict(vectorized_text_fake)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1181,11 +1181,11 @@ array([[ 52,  71,  34,   5, 268,   7,  22,  25,  15,  26, 101, 410,   6,
 <p>Con un <em>if</em> sabremos si la noticia es verdadera o falsa, si su valor es igual o mayor a <em>0.5</em> es verdadera, si no se cumple, es falsa</p>
 <p>##Parse a new</p>
 </section>
-<section id="load-data-1" class="level2">
-<h2 class="anchored" data-anchor-id="load-data-1">Load data</h2>
+<section id="load-data-1" class="level2" data-number="1.16">
+<h2 data-number="1.16" class="anchored" data-anchor-id="load-data-1"><span class="header-section-number">1.16</span> Load data</h2>
 </section>
-<section id="html-extraction" class="level2">
-<h2 class="anchored" data-anchor-id="html-extraction">HTML extraction</h2>
+<section id="html-extraction" class="level2" data-number="1.17">
+<h2 data-number="1.17" class="anchored" data-anchor-id="html-extraction"><span class="header-section-number">1.17</span> HTML extraction</h2>
 <div id="cell-93" class="cell">
 <div class="sourceCode cell-code" id="cb56"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>url_2 <span class="op">=</span> <span class="st">"https://www.washingtonpost.com/sports/2022/11/14/world-cup-female-referee-kathryn-nesbitt/"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -1203,8 +1203,8 @@ array([[ 52,  71,  34,   5, 268,   7,  22,  25,  15,  26, 101, 410,   6,
 </div>
 <p>Lo mismo con la segunda noticia, aca con el texto de la noticia sin pre-procesar</p>
 </section>
-<section id="text-processing-1" class="level2">
-<h2 class="anchored" data-anchor-id="text-processing-1">Text Processing</h2>
+<section id="text-processing-1" class="level2" data-number="1.18">
+<h2 data-number="1.18" class="anchored" data-anchor-id="text-processing-1"><span class="header-section-number">1.18</span> Text Processing</h2>
 <div id="cell-100" class="cell">
 <div class="sourceCode cell-code" id="cb59"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>soup <span class="op">=</span> BeautifulSoup(text_2, <span class="st">"html.parser"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -1227,8 +1227,8 @@ array([[ 52,  71,  34,   5, 268,   7,  22,  25,  15,  26, 101, 410,   6,
 </div>
 <p>Imprimimos la segunda noticia luego de pre-procesamiento.</p>
 </section>
-<section id="tokenization-1" class="level2">
-<h2 class="anchored" data-anchor-id="tokenization-1">Tokenization</h2>
+<section id="tokenization-1" class="level2" data-number="1.19">
+<h2 data-number="1.19" class="anchored" data-anchor-id="tokenization-1"><span class="header-section-number">1.19</span> Tokenization</h2>
 <div id="cell-107" class="cell">
 <div class="sourceCode cell-code" id="cb63"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a>new_vocab_size_1 <span class="op">=</span> <span class="dv">642</span></span>
 <span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a>new_vectorizer_2 <span class="op">=</span> TextVectorization(max_tokens<span class="op">=</span>new_vocab_size_1,</span>
@@ -1289,8 +1289,8 @@ array([[454,  10,  43, 279,   3, 575, 640, 381, 155,   4,  80,  45,   6,
 </div>
 <p>Una impresión de como se ve la noticia luego de tokenizar, un tensor con valores enteros</p>
 </section>
-<section id="predict-a-news" class="level2">
-<h2 class="anchored" data-anchor-id="predict-a-news">Predict a news</h2>
+<section id="predict-a-news" class="level2" data-number="1.20">
+<h2 data-number="1.20" class="anchored" data-anchor-id="predict-a-news"><span class="header-section-number">1.20</span> Predict a news</h2>
 <div id="cell-112" class="cell" data-outputid="ca5ec092-bde7-4f5e-b066-d491e2cbff8e">
 <div class="sourceCode cell-code" id="cb66"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a>prediction <span class="op">=</span> model.predict(vectorized_text_true)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1315,8 +1315,8 @@ array([[454,  10,  43, 279,   3, 575, 640, 381, 155,   4,  80,  45,   6,
 </div>
 <p>Al igual que la primera predicción usaremos un <em>if</em> para saber si la noticia es verdadera o falsa. En este caso es mas cercano a <em>1</em>, lo que nos informa que la noticia es verdadera.</p>
 </section>
-<section id="conclusion" class="level1">
-<h1>Conclusion</h1>
+<section id="conclusion" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Conclusion</h1>
 <p>Se nos entrego un <em>dataset</em> con noticias, las cuales se dividian en falsas o verdaderas; Procedimos a analizar la calidad de los datos, los cuales posteriormente procesamos y limpiamos para su función final; Ya con las muetras limpias, entrenamos nuestra red neuronal artificial capaz de predecir una noticia falsa o verdadera, del mundo real; Se llevo acabo numerosas tecnicas para lograr un buen desempeño en el modelo el cual fue bastante preciso en su predicción.</p>
 
 

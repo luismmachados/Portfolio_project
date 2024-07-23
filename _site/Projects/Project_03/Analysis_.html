@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>analysis_ – Mi Portafolio de Proyectos</title>
+<title>analysis_ – Mi Portafolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,7 +116,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Mi Portafolio de Proyectos</span>
+    <span class="navbar-title">Mi Portafolio</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -139,11 +139,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">Proyecto 1</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../projects/project_02/README.md">
+    <a class="dropdown-item" href="../../projects/Project_02/README.md">
  <span class="dropdown-text">Proyecto 2</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../projects/project_03/README.md">
+    <a class="dropdown-item" href="../../projects/Project_03/README.md">
  <span class="dropdown-text">Proyecto 3</span></a>
   </li>  
     </ul>
@@ -164,43 +164,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#context" id="toc-context" class="nav-link active" data-scroll-target="#context">Context</a></li>
-  <li><a href="#regresor-model" id="toc-regresor-model" class="nav-link" data-scroll-target="#regresor-model">Regresor model</a>
+  <li><a href="#context" id="toc-context" class="nav-link active" data-scroll-target="#context"><span class="header-section-number">0.1</span> Context</a></li>
+  <li><a href="#regresor-model" id="toc-regresor-model" class="nav-link" data-scroll-target="#regresor-model"><span class="header-section-number">1</span> Regresor model</a>
   <ul class="collapse">
-  <li><a href="#import-libraries" id="toc-import-libraries" class="nav-link" data-scroll-target="#import-libraries">Import Libraries</a></li>
-  <li><a href="#load-data" id="toc-load-data" class="nav-link" data-scroll-target="#load-data">Load data</a></li>
-  <li><a href="#eda" id="toc-eda" class="nav-link" data-scroll-target="#eda">EDA</a></li>
-  <li><a href="#univariate-analysis" id="toc-univariate-analysis" class="nav-link" data-scroll-target="#univariate-analysis">Univariate analysis</a>
+  <li><a href="#import-libraries" id="toc-import-libraries" class="nav-link" data-scroll-target="#import-libraries"><span class="header-section-number">1.1</span> Import Libraries</a></li>
+  <li><a href="#load-data" id="toc-load-data" class="nav-link" data-scroll-target="#load-data"><span class="header-section-number">1.2</span> Load data</a></li>
+  <li><a href="#eda" id="toc-eda" class="nav-link" data-scroll-target="#eda"><span class="header-section-number">1.3</span> EDA</a></li>
+  <li><a href="#univariate-analysis" id="toc-univariate-analysis" class="nav-link" data-scroll-target="#univariate-analysis"><span class="header-section-number">1.4</span> Univariate analysis</a>
   <ul class="collapse">
-  <li><a href="#experiencia-column" id="toc-experiencia-column" class="nav-link" data-scroll-target="#experiencia-column"><em>Experiencia</em> column</a></li>
-  <li><a href="#posición-column" id="toc-posición-column" class="nav-link" data-scroll-target="#posición-column"><em>Posición</em> column</a></li>
-  <li><a href="#hijos-column" id="toc-hijos-column" class="nav-link" data-scroll-target="#hijos-column"><em>Hijos</em> column</a></li>
-  <li><a href="#casado-column" id="toc-casado-column" class="nav-link" data-scroll-target="#casado-column"><em>Casado</em> column</a></li>
-  <li><a href="#educacion-column" id="toc-educacion-column" class="nav-link" data-scroll-target="#educacion-column"><em>Educacion</em> column</a></li>
-  <li><a href="#salario-column" id="toc-salario-column" class="nav-link" data-scroll-target="#salario-column"><em>Salario</em> column</a></li>
+  <li><a href="#experiencia-column" id="toc-experiencia-column" class="nav-link" data-scroll-target="#experiencia-column"><span class="header-section-number">1.4.1</span> <em>Experiencia</em> column</a></li>
+  <li><a href="#posición-column" id="toc-posición-column" class="nav-link" data-scroll-target="#posición-column"><span class="header-section-number">1.4.2</span> <em>Posición</em> column</a></li>
+  <li><a href="#hijos-column" id="toc-hijos-column" class="nav-link" data-scroll-target="#hijos-column"><span class="header-section-number">1.4.3</span> <em>Hijos</em> column</a></li>
+  <li><a href="#casado-column" id="toc-casado-column" class="nav-link" data-scroll-target="#casado-column"><span class="header-section-number">1.4.4</span> <em>Casado</em> column</a></li>
+  <li><a href="#educacion-column" id="toc-educacion-column" class="nav-link" data-scroll-target="#educacion-column"><span class="header-section-number">1.4.5</span> <em>Educacion</em> column</a></li>
+  <li><a href="#salario-column" id="toc-salario-column" class="nav-link" data-scroll-target="#salario-column"><span class="header-section-number">1.4.6</span> <em>Salario</em> column</a></li>
   </ul></li>
-  <li><a href="#label-encoder" id="toc-label-encoder" class="nav-link" data-scroll-target="#label-encoder">Label encoder</a></li>
-  <li><a href="#bivariate-analysis" id="toc-bivariate-analysis" class="nav-link" data-scroll-target="#bivariate-analysis">Bivariate Analysis</a></li>
-  <li><a href="#train-test-data" id="toc-train-test-data" class="nav-link" data-scroll-target="#train-test-data">Train test data</a></li>
-  <li><a href="#data-engineering" id="toc-data-engineering" class="nav-link" data-scroll-target="#data-engineering">Data engineering</a></li>
-  <li><a href="#train-model" id="toc-train-model" class="nav-link" data-scroll-target="#train-model">Train model</a></li>
-  <li><a href="#prediction-and-performance" id="toc-prediction-and-performance" class="nav-link" data-scroll-target="#prediction-and-performance">Prediction and performance</a></li>
-  <li><a href="#save-the-model" id="toc-save-the-model" class="nav-link" data-scroll-target="#save-the-model">Save the model</a></li>
+  <li><a href="#label-encoder" id="toc-label-encoder" class="nav-link" data-scroll-target="#label-encoder"><span class="header-section-number">1.5</span> Label encoder</a></li>
+  <li><a href="#bivariate-analysis" id="toc-bivariate-analysis" class="nav-link" data-scroll-target="#bivariate-analysis"><span class="header-section-number">1.6</span> Bivariate Analysis</a></li>
+  <li><a href="#train-test-data" id="toc-train-test-data" class="nav-link" data-scroll-target="#train-test-data"><span class="header-section-number">1.7</span> Train test data</a></li>
+  <li><a href="#data-engineering" id="toc-data-engineering" class="nav-link" data-scroll-target="#data-engineering"><span class="header-section-number">1.8</span> Data engineering</a></li>
+  <li><a href="#train-model" id="toc-train-model" class="nav-link" data-scroll-target="#train-model"><span class="header-section-number">1.9</span> Train model</a></li>
+  <li><a href="#prediction-and-performance" id="toc-prediction-and-performance" class="nav-link" data-scroll-target="#prediction-and-performance"><span class="header-section-number">1.10</span> Prediction and performance</a></li>
+  <li><a href="#save-the-model" id="toc-save-the-model" class="nav-link" data-scroll-target="#save-the-model"><span class="header-section-number">1.11</span> Save the model</a></li>
   </ul></li>
-  <li><a href="#logistic-model" id="toc-logistic-model" class="nav-link" data-scroll-target="#logistic-model">Logistic model</a>
+  <li><a href="#logistic-model" id="toc-logistic-model" class="nav-link" data-scroll-target="#logistic-model"><span class="header-section-number">2</span> Logistic model</a>
   <ul class="collapse">
-  <li><a href="#load-data-1" id="toc-load-data-1" class="nav-link" data-scroll-target="#load-data-1">Load Data</a></li>
-  <li><a href="#eda-1" id="toc-eda-1" class="nav-link" data-scroll-target="#eda-1">EDA</a></li>
-  <li><a href="#label-encoder-1" id="toc-label-encoder-1" class="nav-link" data-scroll-target="#label-encoder-1">Label encoder</a></li>
-  <li><a href="#bivariate-analysis-1" id="toc-bivariate-analysis-1" class="nav-link" data-scroll-target="#bivariate-analysis-1">Bivariate Analysis</a></li>
-  <li><a href="#train-test-data-1" id="toc-train-test-data-1" class="nav-link" data-scroll-target="#train-test-data-1">Train test data</a></li>
-  <li><a href="#data-engineering-1" id="toc-data-engineering-1" class="nav-link" data-scroll-target="#data-engineering-1">Data engineering</a></li>
-  <li><a href="#train-model-1" id="toc-train-model-1" class="nav-link" data-scroll-target="#train-model-1">Train model</a></li>
-  <li><a href="#prediction-and-performance-1" id="toc-prediction-and-performance-1" class="nav-link" data-scroll-target="#prediction-and-performance-1">Prediction and performance</a></li>
-  <li><a href="#roc-curve" id="toc-roc-curve" class="nav-link" data-scroll-target="#roc-curve">ROC curve</a></li>
-  <li><a href="#save-the-model-1" id="toc-save-the-model-1" class="nav-link" data-scroll-target="#save-the-model-1">Save the model</a></li>
+  <li><a href="#load-data-1" id="toc-load-data-1" class="nav-link" data-scroll-target="#load-data-1"><span class="header-section-number">2.1</span> Load Data</a></li>
+  <li><a href="#eda-1" id="toc-eda-1" class="nav-link" data-scroll-target="#eda-1"><span class="header-section-number">2.2</span> EDA</a></li>
+  <li><a href="#label-encoder-1" id="toc-label-encoder-1" class="nav-link" data-scroll-target="#label-encoder-1"><span class="header-section-number">2.3</span> Label encoder</a></li>
+  <li><a href="#bivariate-analysis-1" id="toc-bivariate-analysis-1" class="nav-link" data-scroll-target="#bivariate-analysis-1"><span class="header-section-number">2.4</span> Bivariate Analysis</a></li>
+  <li><a href="#train-test-data-1" id="toc-train-test-data-1" class="nav-link" data-scroll-target="#train-test-data-1"><span class="header-section-number">2.5</span> Train test data</a></li>
+  <li><a href="#data-engineering-1" id="toc-data-engineering-1" class="nav-link" data-scroll-target="#data-engineering-1"><span class="header-section-number">2.6</span> Data engineering</a></li>
+  <li><a href="#train-model-1" id="toc-train-model-1" class="nav-link" data-scroll-target="#train-model-1"><span class="header-section-number">2.7</span> Train model</a></li>
+  <li><a href="#prediction-and-performance-1" id="toc-prediction-and-performance-1" class="nav-link" data-scroll-target="#prediction-and-performance-1"><span class="header-section-number">2.8</span> Prediction and performance</a></li>
+  <li><a href="#roc-curve" id="toc-roc-curve" class="nav-link" data-scroll-target="#roc-curve"><span class="header-section-number">2.9</span> ROC curve</a></li>
+  <li><a href="#save-the-model-1" id="toc-save-the-model-1" class="nav-link" data-scroll-target="#save-the-model-1"><span class="header-section-number">2.10</span> Save the model</a></li>
   </ul></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">3</span> Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -211,8 +211,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p><a href="https://colab.research.google.com/github/luismmachados/Briefcase_project/blob/main/Analysis_.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
-<section id="context" class="level2">
-<h2 class="anchored" data-anchor-id="context">Context</h2>
+<section id="context" class="level2" data-number="0.1">
+<h2 data-number="0.1" class="anchored" data-anchor-id="context"><span class="header-section-number">0.1</span> Context</h2>
 <p>Un equipo de Recursos Humanos te acaba de proporcionar el archivo que has descargado. En este se indican algunas características que ellos creen que influyen en el salario que buscan algunas personas que se postulan en empresas de tecnología.</p>
 <p>Este equipo pide de tu apoyo para diseñar un modelo que pueda predecir cuánto pedirá cada postulante con base en las siguientes características:</p>
 <ul>
@@ -238,10 +238,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><code>Salario</code>: Cantidad en pesos mexicanos que pide. Esta variable es la que se pretende predecir en este ejercicio.</li>
 </ul>
 </section>
-<section id="regresor-model" class="level1">
-<h1>Regresor model</h1>
-<section id="import-libraries" class="level2">
-<h2 class="anchored" data-anchor-id="import-libraries">Import Libraries</h2>
+<section id="regresor-model" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Regresor model</h1>
+<section id="import-libraries" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="import-libraries"><span class="header-section-number">1.1</span> Import Libraries</h2>
 <div id="cell-4" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pandas <span class="im">import</span> (read_csv,</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>                    DataFrame,</span>
@@ -316,8 +316,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">'ignore'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="load-data" class="level2">
-<h2 class="anchored" data-anchor-id="load-data">Load data</h2>
+<section id="load-data" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="load-data"><span class="header-section-number">1.2</span> Load data</h2>
 <div id="cell-13" class="cell" data-outputid="428579b4-2ada-4fbe-b6a5-6b40aa5f7e28" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Definimos nuestra variable con el Dataframe a trabajar, con el nombre df_1</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> read_csv(<span class="st">"/content/drive/MyDrive/Colab Notebooks/proyectos/rrhh.csv"</span>)</span>
@@ -598,8 +598,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>Ya con nuestro dataset en el drive, podremos cargarlo y definirlo como <em>df</em>, y observamos como se ve.</p>
 </section>
-<section id="eda" class="level2">
-<h2 class="anchored" data-anchor-id="eda">EDA</h2>
+<section id="eda" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="eda"><span class="header-section-number">1.3</span> EDA</h2>
 <div id="cell-16" class="cell" data-outputid="44b4f90c-4893-45f3-c64d-ab4d76212982" data-execution_count="10">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.info())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -919,16 +919,16 @@ dtype: int64</code></pre>
 </div>
 <p>No contiene valores duplicados.</p>
 </section>
-<section id="univariate-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="univariate-analysis">Univariate analysis</h2>
+<section id="univariate-analysis" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="univariate-analysis"><span class="header-section-number">1.4</span> Univariate analysis</h2>
 <div id="cell-25" class="cell" data-outputid="c16916e1-a040-4776-c0f6-3bb2d898d211" data-execution_count="14">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="14">
 <pre><code>Index(['Experiencia', 'Posicion', 'Hijos', 'Casado', 'Educacion', 'Salario'], dtype='object')</code></pre>
 </div>
 </div>
-<section id="experiencia-column" class="level3">
-<h3 class="anchored" data-anchor-id="experiencia-column"><em>Experiencia</em> column</h3>
+<section id="experiencia-column" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="experiencia-column"><span class="header-section-number">1.4.1</span> <em>Experiencia</em> column</h3>
 <div id="cell-27" class="cell" data-outputid="2ac84c34-8101-44d7-ff99-3a5e5a997b15" data-execution_count="15">
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Experiencia'</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="15">
@@ -964,8 +964,8 @@ dtype: int64</code></pre>
 </div>
 <p>Cuando una gráfica tiene forma de campana, como esta, se le llama distribución normal o distribución gaussiana, entre los 4 - 8.5 se encuentra la mayor concentración de la experiencia de los usuarios</p>
 </section>
-<section id="posición-column" class="level3">
-<h3 class="anchored" data-anchor-id="posición-column"><em>Posición</em> column</h3>
+<section id="posición-column" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="posición-column"><span class="header-section-number">1.4.2</span> <em>Posición</em> column</h3>
 <div id="cell-31" class="cell" data-outputid="d5eb6cde-d18b-4b29-eff3-c2568b873bc5" data-execution_count="17">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Posicion'</span>].unique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="17">
@@ -1004,8 +1004,8 @@ dtype: int64</code></pre>
 </div>
 <p>Con estas graficas podemos ver los cargos y lo que representa en su totalidad, en su mayoria son <em>analistas</em> por otra parte la minoria de parte de los <em>gerentes</em></p>
 </section>
-<section id="hijos-column" class="level3">
-<h3 class="anchored" data-anchor-id="hijos-column"><em>Hijos</em> column</h3>
+<section id="hijos-column" class="level3" data-number="1.4.3">
+<h3 data-number="1.4.3" class="anchored" data-anchor-id="hijos-column"><span class="header-section-number">1.4.3</span> <em>Hijos</em> column</h3>
 <div id="cell-36" class="cell" data-outputid="e72163f5-8e80-4a1b-e8dc-80a217fdb114" data-execution_count="20">
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Hijos'</span>].nunique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="20">
@@ -1028,8 +1028,8 @@ dtype: int64</code></pre>
 </div>
 <p>Con casi el 60% de los usuarios cuentan con <em>0 o 1 hijo,</em> luego son cada vez menos las personas que cuentan con mayor cantidad de hijos.</p>
 </section>
-<section id="casado-column" class="level3">
-<h3 class="anchored" data-anchor-id="casado-column"><em>Casado</em> column</h3>
+<section id="casado-column" class="level3" data-number="1.4.4">
+<h3 data-number="1.4.4" class="anchored" data-anchor-id="casado-column"><span class="header-section-number">1.4.4</span> <em>Casado</em> column</h3>
 <div id="cell-40" class="cell" data-outputid="562cd131-d0dc-464b-d769-ed2146e085db" data-execution_count="22">
 <div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Casado'</span>].nunique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="22">
@@ -1052,8 +1052,8 @@ dtype: int64</code></pre>
 </div>
 <p>Casi se aprecia un equilibrio entre las personas <em>casadas</em> o los que no lo estan, siendo las personas <em>casadas</em> la mayoria con casi un 60%</p>
 </section>
-<section id="educacion-column" class="level3">
-<h3 class="anchored" data-anchor-id="educacion-column"><em>Educacion</em> column</h3>
+<section id="educacion-column" class="level3" data-number="1.4.5">
+<h3 data-number="1.4.5" class="anchored" data-anchor-id="educacion-column"><span class="header-section-number">1.4.5</span> <em>Educacion</em> column</h3>
 <div id="cell-44" class="cell" data-outputid="ea2665af-8167-48bc-cf03-1197617105df" data-execution_count="24">
 <div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Educacion'</span>].nunique()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="24">
@@ -1076,8 +1076,8 @@ dtype: int64</code></pre>
 </div>
 <p>En su mayoria solo cuentan con la educación de <em>bachillerato</em>, tiene relación com aquellos usuarios que cuentan con el cargo mas bajo de <em>analista</em>, donde tambien un pequeño porcentaje de <em>licenciados</em> son <em>analistas, ya que del 10% de los usuarios con </em>posgrado* solo el 6% son <em>gerentes</em></p>
 </section>
-<section id="salario-column" class="level3">
-<h3 class="anchored" data-anchor-id="salario-column"><em>Salario</em> column</h3>
+<section id="salario-column" class="level3" data-number="1.4.6">
+<h3 data-number="1.4.6" class="anchored" data-anchor-id="salario-column"><span class="header-section-number">1.4.6</span> <em>Salario</em> column</h3>
 <div id="cell-48" class="cell" data-outputid="25e6349c-ed52-41e4-ecd4-62b5123d47bd" data-execution_count="26">
 <div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Salario'</span>].describe()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="26">
@@ -1111,8 +1111,8 @@ Name: Salario, dtype: float64</code></pre>
 <p>Podemos observar la forma de una campana en esta grafica, una distribución normal; La mayor concentración de personas se encuentran entre 25.000$ - 35.000$</p>
 </section>
 </section>
-<section id="label-encoder" class="level2">
-<h2 class="anchored" data-anchor-id="label-encoder">Label encoder</h2>
+<section id="label-encoder" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="label-encoder"><span class="header-section-number">1.5</span> Label encoder</h2>
 <div id="cell-52" class="cell" data-execution_count="28">
 <div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>le <span class="op">=</span> LabelEncoder()</span>
 <span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1123,8 +1123,8 @@ Name: Salario, dtype: float64</code></pre>
 </div>
 <p>Para poder llevar a cabo un analisis bivariado o multivariado los features deben ser numericos, por eso con <em>label encoder</em>, transformaremos aquellos features los cuales cuentan con valores categoricos</p>
 </section>
-<section id="bivariate-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="bivariate-analysis">Bivariate Analysis</h2>
+<section id="bivariate-analysis" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="bivariate-analysis"><span class="header-section-number">1.6</span> Bivariate Analysis</h2>
 <div id="cell-55" class="cell" data-outputid="55c7a1a6-9bd7-41a0-8084-91a2d9adcf5c" data-execution_count="29">
 <div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>df.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="29">
@@ -1241,8 +1241,8 @@ Name: Salario, dtype: float64</code></pre>
 </div>
 <p>Podemos observar una gráfica mas general la cual involucra todos los features, nos devuelve parte de lo que ya he mostrado y otras mas, por ejemplo, como la cantidad de hijos dependiendo del salario, por ejemplo el usuario con 4 hijos cuenta con el mayor <em>Salario</em> seguido de un usuario sin hijos.</p>
 </section>
-<section id="train-test-data" class="level2">
-<h2 class="anchored" data-anchor-id="train-test-data">Train test data</h2>
+<section id="train-test-data" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="train-test-data"><span class="header-section-number">1.7</span> Train test data</h2>
 <div id="cell-70" class="cell" data-execution_count="36">
 <div class="sourceCode cell-code" id="cb48"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop(columns<span class="op">=</span><span class="st">'Salario'</span>)</span>
 <span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[<span class="st">'Salario'</span>]</span>
@@ -1254,8 +1254,8 @@ Name: Salario, dtype: float64</code></pre>
 </div>
 <p>Acá definimos las variables dependientes e independientes, posteriormente definimos los conjuntos de entrenamiento y de prueba para nuestro modelo de predicción</p>
 </section>
-<section id="data-engineering" class="level2">
-<h2 class="anchored" data-anchor-id="data-engineering">Data engineering</h2>
+<section id="data-engineering" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="data-engineering"><span class="header-section-number">1.8</span> Data engineering</h2>
 <div id="cell-73" class="cell" data-execution_count="37">
 <div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>column <span class="op">=</span> <span class="st">'Experiencia'</span>, <span class="st">'Hijos'</span>          <span class="co"># Definimos los features a transformar</span></span>
 <span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1277,8 +1277,8 @@ Name: Salario, dtype: float64</code></pre>
 </div>
 <p>Antes del entrenamiento es necesario aplicar un pre-procesamiento o ingeneria de datos para el correcto entrenamiento de dicho modelo, aplicaremos un pipeline sencillo, primeramente especificamos los features que procesaremos, luego instanciamos el metodo de escalamiento, y se lo aplicamos a los conjuntos de entrenamiento</p>
 </section>
-<section id="train-model" class="level2">
-<h2 class="anchored" data-anchor-id="train-model">Train model</h2>
+<section id="train-model" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="train-model"><span class="header-section-number">1.9</span> Train model</h2>
 <div id="cell-76" class="cell" data-outputid="d7b62feb-2f91-46b8-ffa4-d891ec7dbdc9" data-execution_count="38">
 <div class="sourceCode cell-code" id="cb50"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>model_lr <span class="op">=</span> LinearRegression()</span>
 <span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>model_lr.fit(X_train, y_train)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1288,8 +1288,8 @@ Name: Salario, dtype: float64</code></pre>
 </div>
 <p>Definimos nuestro modelo de predicción, en este caso de <em>Regresión lineal</em>, y entrenamos con los conjuntos de entrenamiento</p>
 </section>
-<section id="prediction-and-performance" class="level2">
-<h2 class="anchored" data-anchor-id="prediction-and-performance">Prediction and performance</h2>
+<section id="prediction-and-performance" class="level2" data-number="1.10">
+<h2 data-number="1.10" class="anchored" data-anchor-id="prediction-and-performance"><span class="header-section-number">1.10</span> Prediction and performance</h2>
 <div id="cell-79" class="cell" data-outputid="cbf85b54-e2b0-4c8d-8f89-07b64390fd21" data-execution_count="39">
 <div class="sourceCode cell-code" id="cb51"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> model_lr.predict(X_test)</span>
 <span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1585,8 +1585,8 @@ Coeficiente de Determinación (R^2): 0.7865906308771698</code></pre>
 </div>
 <p>Acá creamos un Dataframe para mostrar una comparación de los valores predichos por nuestro modelo contra los valores reales, como podemos ver un pequeño margen de falla.</p>
 </section>
-<section id="save-the-model" class="level2">
-<h2 class="anchored" data-anchor-id="save-the-model">Save the model</h2>
+<section id="save-the-model" class="level2" data-number="1.11">
+<h2 data-number="1.11" class="anchored" data-anchor-id="save-the-model"><span class="header-section-number">1.11</span> Save the model</h2>
 <div id="cell-84" class="cell" data-outputid="4c774bfc-4b65-42e4-fd9c-9f9ed9305c77" data-execution_count="41">
 <div class="sourceCode cell-code" id="cb54"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Guardar el modelo</span></span>
 <span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>joblib.dump(model_lr, <span class="st">'modelo_regresion_lineal.pkl'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1597,11 +1597,11 @@ Coeficiente de Determinación (R^2): 0.7865906308771698</code></pre>
 <p>Ya con nuestro modelo entrenado y probado, podremos guardarlo para luego desplegar</p>
 </section>
 </section>
-<section id="logistic-model" class="level1">
-<h1>Logistic model</h1>
+<section id="logistic-model" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Logistic model</h1>
 <p>En esta parte deberás hacer un modelo de clasificación que pueda predecir si un postulante será contrato o no, de acuerdo con las variables que te han compartido.</p>
-<section id="load-data-1" class="level2">
-<h2 class="anchored" data-anchor-id="load-data-1">Load Data</h2>
+<section id="load-data-1" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="load-data-1"><span class="header-section-number">2.1</span> Load Data</h2>
 <div id="cell-89" class="cell" data-outputid="84ba58c3-379d-4527-b1b4-55a9d8c4c5e0" data-execution_count="42">
 <div class="sourceCode cell-code" id="cb56"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>df_1 <span class="op">=</span> read_csv(<span class="st">"/content/drive/MyDrive/Colab Notebooks/proyectos/rrhh_2.csv"</span>)</span>
 <span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>df_1.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1887,8 +1887,8 @@ Coeficiente de Determinación (R^2): 0.7865906308771698</code></pre>
 </div>
 <p>Definimos este otro dataset como <em>df_1</em></p>
 </section>
-<section id="eda-1" class="level2">
-<h2 class="anchored" data-anchor-id="eda-1">EDA</h2>
+<section id="eda-1" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="eda-1"><span class="header-section-number">2.2</span> EDA</h2>
 <div id="cell-92" class="cell" data-outputid="ad732053-2f95-4b41-eb3c-c298df22b832" data-execution_count="43">
 <div class="sourceCode cell-code" id="cb57"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>df_1.info()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -2226,8 +2226,8 @@ dtype: float64</code></pre>
 </div>
 <p>Tampoco exiten valores duplicados en nuestro Dataset</p>
 </section>
-<section id="label-encoder-1" class="level2">
-<h2 class="anchored" data-anchor-id="label-encoder-1">Label encoder</h2>
+<section id="label-encoder-1" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="label-encoder-1"><span class="header-section-number">2.3</span> Label encoder</h2>
 <div id="cell-101" class="cell" data-execution_count="47">
 <div class="sourceCode cell-code" id="cb64"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a>le <span class="op">=</span> LabelEncoder()</span>
 <span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -2238,8 +2238,8 @@ dtype: float64</code></pre>
 </div>
 <p>Aplicaremos la misma tecnica anterior para convertir los features <em>object</em> a numericos, ya que son los mismos</p>
 </section>
-<section id="bivariate-analysis-1" class="level2">
-<h2 class="anchored" data-anchor-id="bivariate-analysis-1">Bivariate Analysis</h2>
+<section id="bivariate-analysis-1" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="bivariate-analysis-1"><span class="header-section-number">2.4</span> Bivariate Analysis</h2>
 <div id="cell-104" class="cell" data-outputid="50dd0103-9a3b-4c76-9213-808c2a0bf30d" data-execution_count="48">
 <div class="sourceCode cell-code" id="cb65"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a>corr <span class="op">=</span> df_1.corr()</span>
 <span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a>heatmap(corr, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">'coolwarm'</span>, vmin<span class="op">=-</span><span class="dv">1</span>, vmax<span class="op">=</span><span class="dv">1</span>)</span>
@@ -2277,8 +2277,8 @@ dtype: float64</code></pre>
 <p>Es interesante lo que podemos ver acá: - Mientras mayor <em>educación</em> es menos el desempleo - Los usarios con un solo hijo son los que mas coincidencias tienen - Los usuarios con licenciaturas son los mas equilibrados con respecto a los features analisados</p>
 <p>No profundizare mas con el análisis entre variables ya que es el mismo que el anterior, ya conocemos las tendencias.</p>
 </section>
-<section id="train-test-data-1" class="level2">
-<h2 class="anchored" data-anchor-id="train-test-data-1">Train test data</h2>
+<section id="train-test-data-1" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="train-test-data-1"><span class="header-section-number">2.5</span> Train test data</h2>
 <div id="cell-111" class="cell" data-execution_count="50">
 <div class="sourceCode cell-code" id="cb67"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df_1.drop(columns<span class="op">=</span><span class="st">'Contratado'</span>)</span>
 <span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df_1[<span class="st">'Contratado'</span>]</span>
@@ -2290,8 +2290,8 @@ dtype: float64</code></pre>
 </div>
 <p>Acá definimos las variables dependientes e independientes, posteriormente definimos los conjuntos de entrenamiento y de prueba para nuestro modelo de predicción</p>
 </section>
-<section id="data-engineering-1" class="level2">
-<h2 class="anchored" data-anchor-id="data-engineering-1">Data engineering</h2>
+<section id="data-engineering-1" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="data-engineering-1"><span class="header-section-number">2.6</span> Data engineering</h2>
 <div id="cell-114" class="cell" data-execution_count="51">
 <div class="sourceCode cell-code" id="cb68"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a>columns_standard <span class="op">=</span> [<span class="st">'Experiencia'</span>, <span class="st">'Hijos'</span>]</span>
@@ -2317,8 +2317,8 @@ dtype: float64</code></pre>
 </div>
 <p>Aplicamos igual un pipeline para el pre-procesamiento, a diferencia del modelo anterior, toca escalar <em>Salario</em> como tiene valores totalmente diferentes los otros features, le aplicaremos un escalamiento que se adapte mejor a sus valores.</p>
 </section>
-<section id="train-model-1" class="level2">
-<h2 class="anchored" data-anchor-id="train-model-1">Train model</h2>
+<section id="train-model-1" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="train-model-1"><span class="header-section-number">2.7</span> Train model</h2>
 <div id="cell-117" class="cell" data-outputid="4a98c542-5ea0-46ab-c62e-02e07f8375ae" data-execution_count="52">
 <div class="sourceCode cell-code" id="cb69"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a>model_lgr <span class="op">=</span> LogisticRegression(penalty<span class="op">=</span><span class="st">'l2'</span>, solver<span class="op">=</span><span class="st">'liblinear'</span>)</span>
 <span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a>model_lgr.fit(X_train, y_train)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -2328,8 +2328,8 @@ dtype: float64</code></pre>
 </div>
 <p>Para este modelo de clasificación utilizaremos regresión logistica, modificamos un poco los hiperparametros para mejorar el desempeño.</p>
 </section>
-<section id="prediction-and-performance-1" class="level2">
-<h2 class="anchored" data-anchor-id="prediction-and-performance-1">Prediction and performance</h2>
+<section id="prediction-and-performance-1" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="prediction-and-performance-1"><span class="header-section-number">2.8</span> Prediction and performance</h2>
 <div id="cell-120" class="cell" data-outputid="4cac0e91-f9c1-479d-caa6-08a38959edfd" data-execution_count="53">
 <div class="sourceCode cell-code" id="cb70"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a>y_predlgr <span class="op">=</span> model_lgr.predict(X_test)</span>
 <span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>Lgpre <span class="op">=</span>  accuracy_score(y_test, y_predlgr)</span>
@@ -2356,8 +2356,8 @@ dtype: float64</code></pre>
 </div>
 <p>Con una matriz de confusión podemos observar las fallas y acertadas de los valores predichos con respecto a los reales, notamos que son muy pocos los valores incorrectos</p>
 </section>
-<section id="roc-curve" class="level2">
-<h2 class="anchored" data-anchor-id="roc-curve">ROC curve</h2>
+<section id="roc-curve" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="roc-curve"><span class="header-section-number">2.9</span> ROC curve</h2>
 <div id="cell-125" class="cell" data-outputid="ed84db84-dadf-4d4c-8632-020593d675dd" data-execution_count="55">
 <div class="sourceCode cell-code" id="cb73"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtener probabilidades predichas en el conjunto de prueba</span></span>
 <span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a>y_probs <span class="op">=</span> model_lgr.predict_proba(X_test)[:, <span class="dv">1</span>]</span>
@@ -2423,8 +2423,8 @@ weighted avg       0.83      0.83      0.83       150
 </div>
 <p>Usaremos como metrica la curva ROC perfecta para problemas de clasificación binaria, nos arroja un 85%, un valor cercano a 1 representa un modelo perfecto, mientras que un valor cercano a 0.5 indica un modelo que no es mejor que una predicción aleatoria.</p>
 </section>
-<section id="save-the-model-1" class="level2">
-<h2 class="anchored" data-anchor-id="save-the-model-1">Save the model</h2>
+<section id="save-the-model-1" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="save-the-model-1"><span class="header-section-number">2.10</span> Save the model</h2>
 <div id="cell-128" class="cell" data-outputid="1eebfcb7-5e20-45cf-cebd-3ca0d6496324" data-execution_count="56">
 <div class="sourceCode cell-code" id="cb76"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Guardar el modelo</span></span>
 <span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>joblib.dump(model_lgr, <span class="st">'modelo_regresion_logistica.pkl'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -2435,8 +2435,8 @@ weighted avg       0.83      0.83      0.83       150
 <p>Ya con nuestro modelo entrenado y probado, podremos guardarlo para luego desplegar</p>
 </section>
 </section>
-<section id="conclusion" class="level1">
-<h1>Conclusion</h1>
+<section id="conclusion" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Conclusion</h1>
 <p>Estuvo bastante entretenido el desarrollo de este pequeño proyecto, pudimos cumplir lo que el cliente necesitaba, el desarrollo de un modelo capaz de predecir el salario de un postulante con respecto a ciertos features, por ejemplo, la educación, la cantidad de hijos, si estaba casado o no, etc. Como desafio adicional, se nos anexo otro dataset pero con una columna mas, y en este caso se tenia que diseñar un modelo de clasificación, si un postulante dependiendo de tus features, seria contratado o no.</p>
 
 

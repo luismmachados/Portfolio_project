@@ -1,4 +1,4 @@
-# Customer Segmentation for Financial Product
+# [Customer Segmentation for Financial Product](https://github.com/luismmachados/Portfolio_project/tree/main/Projects/Project_02/scripts/analysis.ipynb) 👈*Click for view*
 
 ## Problem Description
 

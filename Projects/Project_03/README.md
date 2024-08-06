@@ -1,4 +1,4 @@
-# S[alary Prediction and Classification for Job Applicants](https://github.com/luismmachados/Portfolio_project/tree/main/Projects/Project_03/scripts/analysis.ipynb) 👈*Click for view*
+# [Salary Prediction and Classification for Job Applicants](https://github.com/luismmachados/Portfolio_project/tree/main/Projects/Project_03/scripts/analysis.ipynb) 👈*Click for view*
 
 ### Project Objective
 

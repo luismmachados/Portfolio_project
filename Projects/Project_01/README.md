@@ -1,4 +1,4 @@
-# Fake News Detector Based on Neural Networks
+# [Fake News Detector Based on Neural Networks](https://github.com/luismmachados/Portfolio_project/tree/main/Projects/Project_01/scripts/analysis.ipynb)
 
 ## Problem Description
 
